@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/dl_common.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="../js/Mycommon.js" ></script>
+		<script type="text/javascript" src="../js/register.js" ></script>
+		<style>
+			.sec .zc{padding: 32px 0;overflow: hidden;border: 1px solid #ddd;border-top: 0;}
+			.sec .zc .zcl{width: 640px;border-right: 1px solid #ddd;font-size: 12px;color: #666;float: left;}
+			.sec .zc .zcx label{display: inline-block;width: 90px;text-align: right;}
+			.sec .zc .zcx{height: 50px;}
+			.sec .zc .zcx input{width: 210px;height: 26px;border: 1px solid #bcbebd;outline: none;padding: 0 5px;}
+			.sec .zc #telcode,.sec .zc #imgcode{width: 100px;margin-right: 5px;}
+			.sec .zc .codes{display: inline-block;width: 100px;height: 26px;border: 1px solid #bcbebd;vertical-align: bottom;line-height: 26px;text-align: center;font-size: 16px;}
+			.sec .zc .zcx span{display: inline-block;background: url(../img/home_bg.jpg) no-repeat 0px -549px;width: 22px;height: 19px;vertical-align: middle;display: none;}
+			.sec .zc .zcx i{font-style: normal;}
+			.sec .zc .zcx b{display: block;width: 257px;height: 16px;background: url(../img/home_bg.jpg) no-repeat right -299px;margin:3px 0 0 90px;}
+			.sec .zc .zcx p{color: #f75b32;margin-left: 90px;display: none;}
+			.sec .zc .zc2 a{color: #666;}
+			.sec .zc .zc3 button{width: 100px;height: 26px;}
+			.sec .zc .zcl .sele{display: inline-block;width: 460px;height: 56px;overflow: hidden;}
+			.sec .zc .zcl .place{width: 150px;height: 26px;border: 1px solid #aaaaaa;float: left;margin:0 2px 2px 0;}
+			.sec .zc .zcl .place option{margin-bottom: 5px;}
+			.sec .zc .zc6{height: 56px;}
+			.sec .zc .zc6 label{vertical-align: top;}
+			.sec .zc .zc7{margin-left: 90px;}
+			.sec .zc .zc7_1,.zc7_2{margin:5px 0 20px;}
+			.sec .zc .zc7_1 input,.zc7_2 input{vertical-align: bottom;}
+			.sec .zc .zc8 #put{width: 258px;height: 36px;margin-left: 90px;color: #fff;font-size: 16px;font-weight: bold;background: #f75b32;border: none;border-radius: 5px;}
+			.sec .zcr{float: left;font-size: 12px;color: #666;margin-left:60px;}
+			.sec .zcr_t{margin-bottom: 20px;padding: 10px;}
+			.sec .zcr_t span{display: inline-block;width: 35px;height: 30px;background: url(../img/reg_1.png) no-repeat left bottom;vertical-align: bottom;}
+			.sec .zcr_t a{display: inline-block;line-height: 27px;margin-left: 10px;}
+			.sec .zcr_b{overflow: hidden;padding: 10px;}
+			.sec .zcr_b span{display: inline-block;width: 35px;height: 30px;background: url(../img/reg_1.png) no-repeat left top;vertical-align: bottom;}
+			.sec .zcr_b dl{float: right;margin-left: 10px;}
+			.sec .zcr_t:hover{background: #efefef;}
+			.sec .zcr_b:hover{background: #efefef;}
+			.sec .nav a:nth-of-type(2){background: #fff;}
+		</style>
+	</head>
+	<body>
+	<div class="box">
+		<header>
+			<div class="head">
+				<a href="http://127.0.0.1:8020/NongYiWang/index.html?__hbt=1510996174847##"><img src="../img/logo_1.jpg"/></a>
+				<a href="##"><img src="../img/r2.jpg"></a>			
+			</div>		
+		</header>
+		<section>
+			<div class="sec">
+				<div class="nav">
+					<a href="http://127.0.0.1:8020/NongYiWang/html/Enter.html?__hbt=1510996231722">登录</a>
+					<a href="http://127.0.0.1:8020/NongYiWang/html/register.html?__hbt=1510996302813">注册</a>
+				</div>
+				<div class="zc">
+					<div class="zcl">
+						<div class="zc1 zcx">
+							<label for="tel">手机号码：</label><input type="tel" placeholder="请输入手机号码" id="tel"><span></span>
+							<i>1,34578开头的11位号码</i>
+							<p>手机号码格式不正确</p>
+						</div>
+						<div class="zc2 zcx">
+							<label for="imgcode">图形验证码：</label><input type="text" id="imgcode">
+							<div class="codes">dsdd</div>
+							<a href="##" id="exchange">看不清？换一张</a>
+							<p>验证码不正确</p>
+						</div>
+						<div class="zc3 zcx">
+							<label for="telcode">手机验证码：</label><input type="text" id="telcode">
+							<button id="scode2">发送手机验证码</button>
+							<p>手机验证码不正确</p>
+						</div>
+						<div class="zc4 zcx">
+							<label for="pass1">密码：</label><input type="password" id="pass1"><span></span>
+							<i>6-12位字母、数字和下划线</i>
+							<b></b>
+						</div>
+						<div class="zc5 zcx">
+							<label for="pass2">确认密码：</label><input type="password" id="pass2">
+							<i>请再次输入密码并保持一致</i>
+							<p>两次输入密码不一致</p>
+						</div>
+						<div class="zc6 zcx">
+							<label for="place">所在地区：</label>
+							<div class="sele">
+								<select class="place">
+									<option>---请选择---</option>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+								<select class="place">
+									<option>---请选择---</option>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+								<select class="place">
+									<option>---请选择---</option>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+								<select class="place">
+									<option>---请选择---</option>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+								<select class="place">
+									<option>---请选择---</option>
+									<option>北京</option>
+									<option>上海</option>
+								</select>
+							</div>		
+						</div>
+						<div class="zc7">
+							<div class="zc7_1">
+								<input type="checkbox" checked="checked" id="pact1"/><label for="pact1"> 我已阅读并同意<a href="##">《农一用户协议》</a></label>
+							</div>
+							<div class="zc7_2">
+								<input type="checkbox" checked="checked" id="pact2"/><label for="pact2"> 我已阅读并了解<a href="##">《农一网农资代购人员征集办法》</a></label>
+							</div>							
+						</div>
+						<div class="zc8">
+							<input type="submit" id="put" value="注册并申请代购">
+						</div>
+					</div>
+					<dic class="zcr">
+						<div class="zcr_t">
+							<span></span>
+							<a href="##">登录</a>
+						</div>
+						<div class="zcr_b">
+							<span></span>
+							<dl>
+								<dt>申请代购》</dt>
+								<dd>为亲朋好友代购品牌农资赚取收益。</dd>
+							</dl>
+						</div>
+					</dic>
+				</div>
+		
+			</div>
+		</section>
+		<footer>
+			<div class="foot">
+				<div class="oa">
+					<a href="##">关于农一</a>|
+					<a href="##">诚聘英才</a>|
+					<a href="##">服务声明</a>|
+					<a href="##">联系我们</a>
+				</div>
+				<p>CopyRight© 2014-2024 农一网版权所有 |<a href="##"> 京ICP备14033439号-1 </a></p>
+			</div>
+		</footer>
+		<div class="consult">
+			<a href="##"><img src="../img/AC0C0AC875B2B5936A034873D4C8C92A.png"></a>
+			<span></span>
+		</div>
+	</div>
+	</body>
+</html>

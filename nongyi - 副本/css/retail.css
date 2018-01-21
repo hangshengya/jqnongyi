@@ -1,0 +1,303 @@
+em, i {
+  font-style: normal; }
+
+b {
+  font-weight: normal; }
+
+nav {
+  width: 1200px;
+  height: 45px;
+  margin: 0 auto;
+  background: #ea5313;
+  position: relative; }
+  nav .nav_l {
+    width: 190px;
+    height: 344px;
+    background: #ccc;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    z-index: 99;
+    display: none; }
+  nav li:nth-of-type(1) {
+    position: relative; }
+  nav li:nth-of-type(1):hover .nav_l {
+    display: block; }
+  nav li:nth-of-type(1) > a {
+    width: 190px;
+    padding: 0;
+    text-align: center; }
+  nav li:nth-of-type(1) > span {
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    background: url(../img/btns.png) no-repeat left -350px;
+    position: absolute;
+    left: 135px;
+    top: 20px; }
+  nav li:nth-of-type(1):hover > span {
+    background-position-y: -374px; }
+
+.big4 {
+  overflow: hidden; }
+  .big4 section {
+    width: 1200px;
+    margin: 0 auto; }
+    .big4 section figure {
+      width: 954px; }
+      .big4 section figure .choice h2 {
+        font-size: 22px;
+        line-height: 48px;
+        color: #000; }
+      .big4 section figure .choice .tab {
+        width: 100%;
+        color: #666;
+        margin-bottom: 10px;
+        border-spacing: 0;
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        background: #fff; }
+        .big4 section figure .choice .tab tr td {
+          border-bottom: 1px dashed #ddd;
+          font-size: 10px; }
+        .big4 section figure .choice .tab tr td:nth-of-type(1) {
+          border-bottom: 1px solid #ddd;
+          font-size: 12px;
+          width: 100px;
+          text-align: center;
+          font-weight: bold;
+          padding: 15px 0;
+          background: #f0f0f0; }
+        .big4 section figure .choice .tab tr a {
+          padding: 0 5px;
+          margin: 0 5px;
+          display: inline-block;
+          line-height: 28px;
+          color: #666; }
+        .big4 section figure .choice .tab tr a:hover {
+          background: #ea5313;
+          color: #fff; }
+        .big4 section figure .choice .tab tr:nth-of-type(1) a {
+          display: inline-block;
+          width: 76px;
+          line-height: 28px;
+          padding: 0 5px;
+          margin: 0 5px; }
+    .big4 section article {
+      width: 954px; }
+      .big4 section article .sort {
+        border: 1px solid #ddd;
+        overflow: hidden;
+        font-size: 12px;
+        color: #666;
+        background: #fff; }
+        .big4 section article .sort .sort_l {
+          float: left; }
+          .big4 section article .sort .sort_l a {
+            display: inline-block;
+            width: 69px;
+            border-right: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+            float: left;
+            line-height: 38px; }
+          .big4 section article .sort .sort_l a:hover {
+            background: #f75b31;
+            color: #fff; }
+        .big4 section article .sort .sort_c {
+          float: left;
+          width: 689px;
+          border-right: 1px solid #ddd;
+          line-height: 38px; }
+          .big4 section article .sort .sort_c span {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #ddd;
+            vertical-align: middle;
+            margin-left: 10px;
+            margin-right: 5px; }
+          .big4 section article .sort .sort_c span:nth-of-type(1) {
+            margin-left: 20px; }
+          .big4 section article .sort .sort_c a {
+            display: inline-block;
+            width: 58px;
+            height: 20px;
+            text-align: center;
+            color: #fff;
+            line-height: 20px;
+            background: #f75b31;
+            vertical-align: middle; }
+          .big4 section article .sort .sort_c b {
+            float: right;
+            margin-right: 10px; }
+        .big4 section article .sort .sort_r {
+          float: left;
+          line-height: 37px; }
+          .big4 section article .sort .sort_r span {
+            vertical-align: middle; }
+            .big4 section article .sort .sort_r span em {
+              color: #f75b31;
+              margin-left: 10px; }
+          .big4 section article .sort .sort_r a {
+            display: inline-block;
+            width: 26px;
+            height: 26px;
+            background: url(../img/btns.png) no-repeat left -159px;
+            vertical-align: middle; }
+          .big4 section article .sort .sort_r a:nth-of-type(1) {
+            background-position-y: -231px;
+            margin-left: 20px; }
+      .big4 section article .sells {
+        color: #666;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .big4 section article .sells .sell {
+          overflow: hidden;
+          border: 1px solid #ddd;
+          width: 228px;
+          margin: 10px 0;
+          background: #fff; }
+          .big4 section article .sells .sell .top {
+            padding: 0 10px; }
+            .big4 section article .sells .sell .top a:nth-of-type(1) {
+              margin-top: 20px;
+              display: inline-block;
+              width: 200px;
+              height: 200px; }
+            .big4 section article .sells .sell .top span {
+              display: block;
+              margin: 20px 0 10px 0; }
+              .big4 section article .sells .sell .top span em {
+                color: #f75b31;
+                font-size: 16px; }
+            .big4 section article .sells .sell .top a {
+              display: block;
+              font-size: 16px;
+              color: #000;
+              line-height: 40px;
+              width: 208px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .big4 section article .sells .sell .top a:hover {
+              text-decoration: underline; }
+          .big4 section article .sells .sell .bot {
+            border-top: 1px solid #ddd;
+            overflow: hidden;
+            background: #f0f0f0; }
+            .big4 section article .sells .sell .bot i {
+              display: inline-block;
+              width: 24px;
+              height: 36px;
+              float: left;
+              text-align: center;
+              padding: 0 4px;
+              background: #009744;
+              color: #fff; }
+            .big4 section article .sells .sell .bot p {
+              float: left;
+              line-height: 36px;
+              padding: 0 10px;
+              border-right: 1px solid #ddd; }
+              .big4 section article .sells .sell .bot p span {
+                color: #F75B31;
+                padding: 0 5px; }
+            .big4 section article .sells .sell .bot b {
+              float: left;
+              line-height: 36px;
+              width: 81px;
+              text-align: center; }
+      .big4 section article .pages {
+        width: 100%;
+        text-align: right;
+        margin: 40px 0 20px; }
+        .big4 section article .pages a {
+          display: inline-block;
+          padding: 0 8px;
+          border: 1px solid #ddd;
+          color: #666;
+          font-size: 12px;
+          background: #fff; }
+        .big4 section article .pages a:hover {
+          border-color: #F75B31;
+          color: #F75B31; }
+  .big4 .sec_l {
+    float: left; }
+  .big4 .sec_r {
+    width: 230px;
+    float: right;
+    color: #666;
+    font-size: 12px; }
+    .big4 .sec_r h2 {
+      font-size: 22px;
+      line-height: 48px;
+      color: #000; }
+    .big4 .sec_r .sell {
+      overflow: hidden;
+      border: 1px solid #ddd;
+      width: 228px;
+      margin-bottom: 10px;
+      background: #fff; }
+      .big4 .sec_r .sell .top {
+        padding: 0 10px;
+        background: #f7f7f7; }
+        .big4 .sec_r .sell .top span {
+          display: block;
+          margin: 10px 0; }
+          .big4 .sec_r .sell .top span em {
+            color: #f75b31;
+            font-size: 16px; }
+        .big4 .sec_r .sell .top a:nth-of-type(1) {
+          margin-top: 20px;
+          display: inline-block;
+          width: 200px;
+          height: 200px; }
+        .big4 .sec_r .sell .top a {
+          display: block;
+          font-size: 16px;
+          color: #000;
+          line-height: 40px;
+          width: 208px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .big4 .sec_r .sell .top a:hover {
+          text-decoration: underline; }
+      .big4 .sec_r .sell .bot {
+        border-top: 1px solid #ddd;
+        overflow: hidden;
+        background: #f0f0f0; }
+        .big4 .sec_r .sell .bot i {
+          display: inline-block;
+          width: 24px;
+          height: 36px;
+          float: left;
+          text-align: center;
+          padding: 0 4px;
+          background: #009744;
+          color: #fff; }
+        .big4 .sec_r .sell .bot p {
+          float: left;
+          line-height: 36px;
+          padding: 0 10px;
+          border-right: 1px solid #ddd; }
+          .big4 .sec_r .sell .bot p span {
+            color: #F75B31;
+            padding: 0 5px; }
+        .big4 .sec_r .sell .bot b {
+          float: left;
+          line-height: 36px;
+          width: 81px;
+          text-align: center; }
+
+.big5 {
+  overflow: hidden; }
+  .big5 .search {
+    float: none;
+    margin: 30px auto 0;
+    height: auto; }
+
+/*# sourceMappingURL=retail.css.map */

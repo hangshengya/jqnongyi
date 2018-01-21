@@ -1,0 +1,48 @@
+.big2{
+    .indent{width: 536px;height: 53px;background: url(../img/scbg.jpg) no-repeat left top;float: right;    margin-top: 36px;
+    }
+}
+.big4{
+    section{
+        .kong{height: 180px;border: 2px solid #ddd;background:#f3f3f3 url(../img/cart_empty.png) no-repeat 300px center;text-align: center;line-height: 180px;display: none;
+            p{color: #666;
+                a{color: #f00;}
+            }
+        }
+        .cart{font-size: 12px;width: 1100px;margin: 0 auto;
+            table{border-collapse: collapse;
+                tr{
+                    td{border: 1px solid #ddd;padding:10px 40px;position: relative;
+                        .cs_s{overflow: hidden;
+                            a{float: left;
+                                img{width: 90px;}
+                            }
+                            ._sx{float: left;width: 200px;color: #666;margin-left: 20px;
+                                a{color: #666;float: none;}
+                                p{padding: 0;color: #999;line-height: 50px;}
+
+                                
+                            }
+                        }
+                        input{vertical-align: bottom;margin: 0 5px;text-align: center;}
+                        .goods_num{width: 80px;height: 24px;}
+                        .btn_cart{display: inline-block;width: 24px;height: 24px;text-align: center;line-height: 24px;position: absolute;left: 16px;top: 43px;border: 1px solid #ddd;cursor: pointer;}
+                        #add{left: 132px;}
+                    }
+                    .total_prices{width: 120px;padding: 10px 0;text-align: center;}
+                }
+            }
+            .total{width: 1059px;height: 80px;border: 1px solid #ddd;
+                a{display: inline-block;margin: 30px;}
+                p{width: 300px;float: right;;margin-top: 30px;
+                    span{font-size: 30px;color: #f00;}
+                }
+            }
+            .payment{width: 1061px;margin: 20px 0 0;
+                button{width: 150px;height: 40px;background: #f0f0f0;border: none;font-size: 16px;}
+                #account{background: #f00;color: #fff;float: right;}
+            }
+        }
+    }
+    
+}

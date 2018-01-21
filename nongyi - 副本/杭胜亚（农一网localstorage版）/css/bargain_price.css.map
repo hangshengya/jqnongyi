@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EAAC,MAAM,EAAE,KAAK;EAAC,UAAU,EAAE,4CAA4C;;AAE9E,KAAK;EAAC,UAAU,EAAE,iCAAiC",
+"sources": ["../sass/bargain_price.scss"],
+"names": [],
+"file": "bargain_price.css"
+}

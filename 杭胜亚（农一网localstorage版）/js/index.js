@@ -1,0 +1,10 @@
+require.config({
+	paths:{
+		'sindex':'sindex',
+		'jquery':'jquery-1.11.3.min',
+		'mycommon':'Mycommon'
+	}
+})
+require(['sindex'],function(m1){
+	m1();
+})

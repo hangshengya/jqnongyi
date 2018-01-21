@@ -1,0 +1,36 @@
+.big4 section p {
+  position: relative; }
+  .big4 section p .buy1 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    left: 70px;
+    top: 330px; }
+  .big4 section p .buy2 {
+    position: absolute;
+    width: 282px;
+    height: 62px;
+    left: 97px;
+    top: 449px; }
+  .big4 section p .buy3 {
+    position: absolute;
+    width: 282px;
+    height: 62px;
+    left: 97px;
+    top: 420px; }
+  .big4 section p .buy4 {
+    position: absolute;
+    width: 282px;
+    height: 62px;
+    left: 97px;
+    top: 480px; }
+  .big4 section p .buy5 {
+    position: absolute;
+    width: 282px;
+    height: 62px;
+    left: 97px;
+    top: 498px; }
+.big4 section .p6 {
+  margin: 20px 0 60px; }
+
+/*# sourceMappingURL=flying.css.map */

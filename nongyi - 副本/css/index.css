@@ -1,0 +1,83 @@
+.big3{height: 45px;background: #ea5313;}
+nav{width: 1200px;height: 45px;margin: 0 auto;background: #ea5313;}
+nav li{float: left;}
+nav li a{display: inline-block;line-height: 45px;color: #fff;padding: 0 40px;}
+nav li:nth-of-type(1) a{width: 190px;padding: 0;text-align: center;}
+nav li a:hover{background: #d34c12;}
+.big4{height: 444px;}
+.gif{width: 1200px;height: 444px;margin: 0 auto;}
+.gif .navbar{height: 344px;background: gray;}
+.navbar .nav_l{width: 190px;height: 344px;background: #ccc;float: left;}
+.navbar .nav_l .ls{height: 172px;}
+.navbar .nav_l .ls dt{width: 50px;height: 172px;float: left;font-size: 18px;background: #ea5313;color: #fff;display: flex;justify-content: center;align-items: center;}
+.navbar .nav_l .ls dt span{display: inline-block;width: 20px;}
+.navbar .nav_l .ls dd{margin-left: 50px;padding: 0 10px;border-bottom: 1px solid #efefef;background: #fff url(../img/农一网16899_09.jpg) no-repeat 125px center;position: relative;}
+.navbar .nav_l .ls dd a{color: #666666;font-size: 12px;display: block;line-height: 33px;}
+.navbar .nav_l .ls .menu{width: 300px;height:auto;background:#fff;position: absolute;left: 140px;top: 0;display: none;font-size: 12px;z-index: 99;}
+.navbar .nav_l .ls .menu a{display: inline-block;}
+.navbar .nav_l .ls .menu span{display: inline-block;width: 50px;vertical-align: top;}
+.navbar .nav_l .ls .menu i{display: inline-block;width: 250px;font-style: normal;}
+.navbar .nav_l .ls .menu i a{line-height: 0;padding: 0 5px;}
+.navbar .nav_l .ls dd:hover a{color: #ea5313;text-decoration: underline;}
+.navbar .nav_l .ls dd:hover .menu{display: block;}
+
+.navbar .nav_r{float: left;width: 1010px;height: 343px;position: relative;overflow: hidden;}
+.view{width: 5050px;height: 343px;position: absolute;left: 0;top: 0;}
+.view li{float: left;list-style: none;}
+.view li a img{width: 1010px;height: 343px;} 
+.con-btn{display: none;}
+.con-btn a{position: absolute;left: 0;top: 50%;margin-top: -40px;width: 40px;line-height: 80px;background: rgba(0,0,0,0.2);font-size: 35px;text-align: center;color: #fff;}
+.con-btn .rightbtn{left: 970px;}
+.bot-btn{width: 400px;position: absolute;left: 50%;bottom: 0;margin-left: -200px;text-align: center;}
+.bot-btn a{display:inline-block;width: 20px;height: 20px;border-radius: 50%;background: #fff;margin: 0 2px;}
+.bot-btn .bg{background: #f00;}
+
+.banner{margin-top: 10px;}
+.big5{height: 370px;margin-top: 20px;}
+article{width: 1200px;height: 370px;margin: 0 auto;}
+article h2{font: 20px/36px '';color: #666666;}
+article .goods{width: 1198px;height: 332px;overflow: hidden;border: 1px solid #dddddd;border-top: 1px solid #ea5313;}
+article .goods1{width: 223px;float: left;padding-left: 16px;}
+article .goods1 a{color: #292828;}
+article .goods1 p{color: #888888;font-size: 12px;}
+article .goods1 h3{color: #666666;font-size: 12px;margin-top: 20px;}
+article .goods1 h3 span{color: #ea5313;font-size: 16px;font-weight: normal;}
+article .goods1 .image{width: 239px;height: 210px;position: relative;}
+article .goods1 .image img{width: 190px;height: 190px;position: absolute;left:0;top: 10px;transition: 0.5s;}
+article .goods1:hover .image img{top: 15px;transition: 0.5s;}
+article .goods1:hover{cursor: pointer;}
+article .goods1:hover a{text-decoration: underline;}
+.big6{height: 1816px;margin-top: 14px;}
+figure{width: 1200px;height: 1816px;margin: 0 auto;}
+.fig1{height: 445px;margin-top: 12px;}
+.fig1 h2{font: 20px/45px '';color: #666666;}
+.fig1 h2 a{display: inline-block;width: 50px;height: 45px;float: right;color: #ea5313;font-size: 17px;background: url(../img/农一网164523.jpg) no-repeat 35px center;}
+.fig1 .goods{width: 1200px;border-top: 1px solid #ea5313;overflow: hidden;}
+.fig1 .goods>a{display: inline-block;width: 240px;height: 400px;float: left;}
+.fig1 .goods>a img{width: 100%;}
+.fig1 .goods .list{float: left;width: 960px;}
+.fig1 .goods .list li{float: left;width: 219px;height: 179px;padding: 10px;position: relative;border-right: 1px solid #ece9e9;border-bottom: 1px solid #ece9e9;}
+.fig1 .goods .list li:nth-of-type(1){width: 480px;height:200px;padding: 0;border: 0;}
+.fig1 .goods .list li:nth-of-type(1) a{width: 100%;height: 100%;}
+.fig1 .goods .list li:nth-of-type(1) a img{width: 100%;height: 100%;}
+.fig1 .goods .list li a{color: #292828;display: block;overflow: hidden;}
+.fig1 .goods .list li p{color: #888888;font-size: 12px;}
+.fig1 .goods .list li h3{color: #666666;font-size: 12px;width: 100px;position: absolute;left: 10px;top: 100px;}
+.fig1 .goods .list li h3 span{color: #ea5313;font-size: 16px;font-weight: normal;}
+.fig1 .goods .list li>img{width: 110px;height: 110px;position: absolute;left:125px;top:80px;transition: 0.5s;}
+.fig1 .goods .list li:hover{cursor: pointer;}
+.fig1 .goods .list li:hover img{left: 120px;transition: 0.5s;}
+.fig1 .goods .list li:hover a{text-decoration: underline;}
+.big7{margin-top: 12px;}		
+section{width: 1200px;margin: 0 auto;}
+section h1{font: 20px/45px '';color: #666666;border-bottom: 1px solid #ea5313;}
+section .buy{margin-top: 8px;overflow: hidden;}
+section .buys{width: 222px;float: left;padding-left: 16px;border: 1px solid #dddddd;}
+section .buys a{color: #292828;}
+section .buys p{color: #888888;font-size: 12px;}
+section .buys h3{color: #666666;font-size: 12px;margin: 20px 0 18px 0;}
+section .buys h3 span{color: #ea5313;font-size: 16px;font-weight: normal;}
+section .buys .image{width: 239px;height: 210px;position: relative;}
+section .buys .image img{width: 190px;height: 190px;position: absolute;left:0;top: 10px;transition: 0.5s;}
+section .buys:hover .image img{top: 15px;transition: 0.5s;}
+section .buys:hover a{text-decoration: underline;}

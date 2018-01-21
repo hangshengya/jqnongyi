@@ -1,0 +1,51 @@
+.big4 section {
+  border-bottom: 1px solid #ddd; }
+  .big4 section .sells {
+    margin-top: 20px;
+    overflow: hidden; }
+    .big4 section .sells h2 {
+      color: #ea5313;
+      font-size: 16px;
+      line-height: 35px;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 1px solid #ea5313; }
+    .big4 section .sells a {
+      width: 238px;
+      display: inline-block;
+      border: 1px solid #fff;
+      overflow: hidden;
+      float: left; }
+      .big4 section .sells a img {
+        width: 238px; }
+      .big4 section .sells a .txt {
+        background: #efefed;
+        padding-left: 20px; }
+        .big4 section .sells a .txt .p1 {
+          line-height: 40px;
+          color: #000;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .big4 section .sells a .txt .p2 {
+          font-size: 12px;
+          color: #666; }
+          .big4 section .sells a .txt .p2 span {
+            margin-right: 15px; }
+        .big4 section .sells a .txt .p3 {
+          font-size: 18px;
+          color: #ea5313;
+          line-height: 56px; }
+          .big4 section .sells a .txt .p3 b {
+            font-size: 12px;
+            color: #666;
+            margin-left: 30px; }
+            .big4 section .sells a .txt .p3 b i {
+              color: #57a3ea; }
+    .big4 section .sells a:hover {
+      border-color: #ea5313; }
+
+.big8 {
+  margin-top: 115px; }
+
+/*# sourceMappingURL=farm.css.map */
